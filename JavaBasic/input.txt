@@ -1,0 +1,4 @@
+This text illustrates a deadlock scenario in Java multithreading through a producer-consumer problem. The initial code demonstrates how using multiple independent locks for production and consumption leads to a circular wait, causing the program to freeze indefinitely. 
+By analyzing the execution timeline, the source reveals that threads become stuck because each holds a resource the other requires. 
+To resolve this, the text provides a refactored solution that utilizes a single shared lock to synchronize access to the queue. 
+This structural change ensures that threads effectively release and acquire the same monitor, allowing for continuous data flow without the risk of permanent blockage.

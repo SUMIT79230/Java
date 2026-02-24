@@ -1,0 +1,35 @@
+Feb 24, 2026 2:59:21 PM Logger_4 main
+SEVERE: SEVERE  - App crash ya critical error!
+Feb 24, 2026 2:59:21 PM Logger_4 main
+WARNING: WARNING - Kuch galat ho sakta hai
+Feb 24, 2026 2:59:21 PM Logger_4 main
+INFO: INFO    - Program start hua
+Feb 24, 2026 2:59:21 PM Logger_4 main
+CONFIG: CONFIG  - Configuration load hui
+Feb 24, 2026 2:59:21 PM Logger_4 main
+FINE: FINE    - Basic debug info
+Feb 24, 2026 2:59:21 PM Logger_4 main
+FINER: FINER   - Detailed debug info
+Feb 24, 2026 2:59:21 PM Logger_4 main
+FINEST: FINEST  - Sabse zyada detail
+Feb 24, 2026 2:59:21 PM Logger_4 main
+SEVERE: Division by zero error aaya!
+java.lang.ArithmeticException: / by zero
+	at Logger_4.main(Logger_4.java:41)
+
+Feb 24, 2026 2:59:21 PM Logger_4 main
+INFO:  Bank App Start 
+Feb 24, 2026 2:59:21 PM Logger_4 deposit
+INFO: Deposit successful: ₹5000
+Feb 24, 2026 2:59:21 PM Logger_4 withdraw
+INFO: Withdrawal request: ₹2000
+Feb 24, 2026 2:59:21 PM Logger_4 withdraw
+INFO: Withdrawal successful! New Balance: ₹3000
+Feb 24, 2026 2:59:21 PM Logger_4 withdraw
+INFO: Withdrawal request: ₹9000
+Feb 24, 2026 2:59:21 PM Logger_4 withdraw
+WARNING: Insufficient balance! Amount: ₹9000, Balance: ₹3000
+Feb 24, 2026 2:59:21 PM Logger_4 withdraw
+INFO: Withdrawal request: ₹-500
+Feb 24, 2026 2:59:21 PM Logger_4 withdraw
+SEVERE: Invalid amount: ₹-500
